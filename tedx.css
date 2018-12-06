@@ -1,19 +1,35 @@
+body {
+	background: #000;
+	margin: 0;
+}
+
+/* CSS for Header*/
+
 header {
 	background: #181818;
 	text-align: center;
 	position: fixed;
 	z-index: 999;
 	width: 100%;
-	border-bottom: 20px solid #731712;
-  top: -100%;
-  transition: top 1s ease-in-out;
+	border-right: 15px solid #FF2A06;
+	border-top: 5px solid white;
+	border-bottom: 5px solid white;
+  	top: -100%;
+  	transition: top 1s ease-in-out;
+  	box-sizing: border-box;
 }
 
+.x {
+	height: 50%;
+}
 
-.logo {
-	color: #ed1c24;
-	letter-spacing: 0.1em;
-    font-family: century-gothic;
+.img-responsive {
+	height: auto;
+	width: auto;
+	max-width: 250px;
+	max-height: 72px;
+	vertical-align: middle;
+	margin: 5%;
 }
 
 nav {
@@ -48,12 +64,12 @@ nav a {
 	transition: opacity 150ms ease-in-out;
 	font-family: century-gothic;
 	letter-spacing: 0.15em;
-	font-weight: bolder;
+	font-weight: normal;
 	font-size: 0.9em;
 }
 
 nav a:hover {
-	color: #ed1c24;
+	color: #FD2A05;
 }
 
 .nav-toggle:checked ~ nav {
@@ -120,7 +136,7 @@ nav a:hover {
 
 	.logo {
 		grid-column: 2 / 3;
-		color: #ed1c24;
+		color: #FF2A06;
 		letter-spacing: 0.1em;
     font-family: century-gothic;
 	}
@@ -151,7 +167,7 @@ nav a:hover {
 		content: '';
 		display: block;
 		height: 5px;
-		background: #ed1c24;
+		background: #FF2A06;
 		position: absolute;
 		top: -.75em;
 		left: 0;
@@ -164,7 +180,17 @@ nav a:hover {
 		transform: scale(1,1);
 	}
 }
+/*  */
+.test {
+  color: white;
+  height: 1000px;
+  background: #181818;
+}
 
 .pindown {
   top: 0;
 }
+
+
+
+
