@@ -1,0 +1,120 @@
+body {
+    font-family: 'Slabo 27px', serif;
+    letter-spacing: 0.3vw;
+}
+
+#foot {
+    background-color: black;
+    display: flex;
+    height: 20vh;
+}
+
+.left {
+    flex: 1;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center
+
+}
+
+.mid {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.right {
+    flex: 1;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.m1 {
+    flex: 1;
+}
+
+.m2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.m3 {
+    flex: 1;
+}
+
+.follow {
+    text-align: center;
+    color: white;
+    flex: 1;
+    font-size: 3vh;
+}
+
+.icons {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.r1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    font-size: 2.5vh;
+    color: #706d6c;
+}
+
+.fab {
+    color: white;
+    font-size: 3vh;
+    -webkit-transition: all 0.4s ease-in;
+    -moz-transition: all 0.4s ease-in;
+    -o-transition: all 0.4s ease-in;
+}
+
+.fab:hover {
+    color: red;
+}
+.far{
+    color: white;
+    font-size: 3vh;
+    -webkit-transition: all 0.4s ease-in;
+    -moz-transition: all 0.4s ease-in;
+    -o-transition: all 0.4s ease-in;
+}
+.far:hover {
+    color: red;
+}
+
+.ted{
+    display: flex;
+    flex-direction: row;
+    color:#706d6c;
+}
+.x{
+    font-size: 2vh;
+}
+.phone
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.test{
+    background-image: url('comingsoon.png');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 97.85vw;
+}
